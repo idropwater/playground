@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <title>node-server</title>
+</head>
+<body>
+  搭建一个简易node-server
+
+  <button onclick="testServer()">click me</button>
+  <div class="text"></div>
+  <script type="text/javascript">
+    function testServer() {
+      jQuery(".text").load("http:127.0.0.1:3000");
+    }
+  </script>
+</body>
+</html>
